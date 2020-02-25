@@ -58,7 +58,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 55px/1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -69,7 +69,7 @@ header .banner-text h3 {
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(1, 1, 68, 0.5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #010144; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -109,7 +109,6 @@ header .scrolldown a {
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -117,7 +116,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #010144; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -148,7 +147,6 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
-
    /* center align the menu */
    text-align: center;
 }
@@ -161,16 +159,13 @@ ul#nav li {
 
 /* Links */
 ul#nav li a {
-
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
-
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
@@ -187,14 +182,14 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #010901;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #010144; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -222,8 +217,8 @@ ul#nav li.current a { color: #F06000; }
    background: #444;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+   background: #010144;
+   color: #ffffff;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -242,7 +237,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #010144; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -251,7 +246,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #010144;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -304,7 +299,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #010144;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,7 +313,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #010144;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -582,7 +577,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #010144; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -825,7 +820,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #010144; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -998,10 +993,9 @@ footer .social-links {
 }
 footer .social-links li {
     display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-left: 42px;
-    color: #F06000;
+  padding: 0;
+  margin: 0 0 0 42px;
+  color: #F06000;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -1032,5 +1026,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #010144; }
 
